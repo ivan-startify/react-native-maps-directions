@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import MapView, { Polyline } from 'react-native-maps';
+import { Polyline } from 'react-native-maps';
 import isEqual from 'lodash.isequal';
 
 const WAYPOINT_LIMIT = 10;
