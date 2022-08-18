@@ -35,7 +35,8 @@
   "private": false,
   "dependencies": {
     "lodash.isequal": "^4.5.0",
-    "prop-types": "^15.6.0"
+    "prop-types": "^15.6.0",
+    "react-native-maps": "^1.2.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.2",

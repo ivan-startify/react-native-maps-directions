@@ -54,6 +54,11 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
+"@types/geojson@^7946.0.8":
+  version "7946.0.10"
+  resolved "https://registry.yarnpkg.com/@types/geojson/-/geojson-7946.0.10.tgz#6dfbf5ea17142f7f9a043809f1cd4c448cb68249"
+  integrity sha512-Nmh0K3iWQJzniTuPRcJn5hxXkfB1T1pgB89SBig5PlJQU5yocazeu4jATJlaA0GYFKWMqDdvYemoSnF2pXgLVA==
+
 acorn-jsx@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-3.0.1.tgz#afdf9488fb1ecefc8348f6fb22f464e32a58b36b"
@@ -832,6 +837,13 @@ prop-types@^15.6.0:
 pseudomap@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
+
+react-native-maps@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-native-maps/-/react-native-maps-1.2.0.tgz#04374a701b85d264eb50f33a2464d01a7c0b310a"
+  integrity sha512-n6QtGLznQ+1psY09st/qD1WluyQx9qIz3S0l9w/UA/ZMYhNWJiQpqrXzNpgJW1N+4uy2umjEpIYYHnhdzIFSKg==
+  dependencies:
+    "@types/geojson" "^7946.0.8"
 
 readable-stream@^2.2.2:
   version "2.3.3"
